@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Hybrid-Crptography</title>
+   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <style>
+    .alert{
+      margin:15px 200px;
+      
+    }
+    .btn{
+      margin:25px;
+    }
+    body{
+    background-color:rgba(151, 148, 148, 0.774);
+  background-size: cover;
+   }
+   html{overflow-x: hidden;}
+   a{text-decoration:none; color:white;}
+   a:hover{text-decoration:none;color:white;}
+
+
+  </style>
+</head>
+<body class="mt-3">
+<div style="margin-top:-1.3%">
+          
+          <div class="container-fluid wow bounceInLeft head-container pt-3 pb-3" style="background-image:linear-gradient(to left, purple,blue)">
+            <div class="container-fluid">
+              <h1 class="display-4 text-center text-light" style="display: block;font-weight:500" >Hybrid Cryptography for Cloud Storage</h1>
+              <!--<p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>-->
+            </div>
+          </div>
+          <div class="alert alert-primary" role="alert" style="margin-top:3%">
+  <center>
+  <h4 class="alert-heading">Well done!</h4>
+  <p>Your file has been decrypted.</p>
+  <hr>
+  <p class="mb-0">Check the file
+  <a href="/abc" download>
+  <b style="color:black">abc</b>
+</a></p>
+  </center>
+</div>
+          <div class="row">
+		    <div class="col-md-4">
+              <center>
+              <div class="card text-white bg-danger mb-3 wow fadeInDown" style="max-width: 18rem; margin-top:5%;border-radius:20%;font-weight:600;text-transform:uppercase;letter-spacing:2px;font-size:20px;">
+                <div class="card-header text-center"><b>Encryption</b></div>
+                <div class="card-body">
+                  <center><img src="https://cdn4.iconfinder.com/data/icons/small-n-flat/24/lock-512.png" width="100px" style="border-radius:50%;"></img></center>
+                  
+                   <button type="button" onclick="window.location.href='/encrypt'"  class="btn text-white disabled" style="background-color:grey;
+                  font-weight:bold;letter-spacing:2px;border-radius:30px;font-size:15px;padding:3% 13% 2% 13%;">Encryption</button>
+                  <!--<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>-->
+                </div>
+              </div>
+              </center>
+            </div>
+            <div class="col-md-4">
+              <center>
+              <div class="card text-white bg-danger wow fadeInLeft" style="max-width: 18rem;margin-top:5%;border-radius:20%;font-weight:600;text-transform:uppercase;letter-spacing:2px;font-size:20px;">
+                <div class="card-header text-center"><b>Generate Keys</b></div>
+                <div class="card-body">
+                  <center><img src="https://cdn0.iconfinder.com/data/icons/customicondesignoffice5/256/keys.png"  width="100px" style="border-radius:50%;"></img></center>
+    
+                  <button type="button" onclick="window.location.href='/key'" class="btn text-white disabled" style="background-color:grey;
+                  font-weight:bold;letter-spacing:2px;border-radius:30px;font-size:15px;padding:3% 13% 2% 13%;">Keys</button>
+                  <!--<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>-->
+                </div>
+              </div>
+              </center>
+            </div>
+            <div class="col-md-4">
+              <center>
+              <div class="card text-white bg-danger mb-3 wow fadeInRight" style="max-width: 18rem;margin-top:5%;border-radius:20%;font-weight:600;text-transform:uppercase;letter-spacing:2px;font-size:20px;">
+                <div class="card-header text-center"><b>Decryption</b></div>
+                <div class="card-body">
+                  <center><img src="https://cdn0.iconfinder.com/data/icons/small-n-flat/24/678115-lock-open-512.png" width="100px" style="border-radius:50%;"></img></center>
+                  
+                  <button type="button" onclick="window.location.href='/decrypt'"  class="btn text-white disabled" style="background-color:grey;
+                  font-weight:bold;letter-spacing:2px;border-radius:30px;font-size:15px;padding:3% 13% 2% 13%;">Decryption</button>
+                  <!--<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>-->
+                </div>
+              </div>
+              </center>
+            </div>
+          </div>
+          <hr>
+
+  
+  
+ 
+  
+</div>
+
+<button type="button" onclick="window.location.href='/'"  class="btn btn-primary btn-lg " style="margin-left: 45%;">Back to Home</button>
+</body>
+</html>
